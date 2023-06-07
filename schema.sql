@@ -2,7 +2,7 @@
 
 CREATE TABLE animals (
     id INT PRIMARY KEY,
-    name VARCHAR (25) NOT NULL,
+    name VARCHAR (100) NOT NULL,
     date_of_birth DATE NOT NULL,
     escape_attempts INT NOT NULL,
     neutered BOOLEAN NOT NULL,
