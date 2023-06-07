@@ -175,13 +175,10 @@ I would like to thank all of my colleagues who inspire to do my best everyday.
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **Did you create this project from scratch?**
 
-  - [Answer_1]
+  - Yes, and for that reason I learned a lot.
 
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
