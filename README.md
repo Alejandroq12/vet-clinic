@@ -165,8 +165,6 @@ I would like to thank all of my colleagues who inspire to do my best everyday.
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **Did you create this project from scratch?**
 
   - Yes, and for that reason I learned a lot.
