@@ -37,32 +37,22 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 # 📖 Paws and Claws Clinic <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**The Paws and Claws Vet Clinic Database** is a PostgreSQL system designed for managing essential information about pet patients in a veterinary clinic. The database stores and organizes data such as pet names, birth dates, weight, neutering status, and escape attempts, providing the clinic staff with a convenient way to track and access this crucial information. It also offers querying capabilities, which help in analysis, reporting, and decision-making, as a result enhancing the efficiency of the clinic's operations and the quality of care provided to the pets.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+<details>
+<summary>Query Language</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/sql/">SQL</a></li>
   </ul>
 </details>
 
