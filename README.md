@@ -104,7 +104,7 @@ Connect to database
 To run tests, run the following command (functionality will be added in the future):
 
 ```sh
-  // command to run tests
+  // command to run tests will be available in the future.
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
