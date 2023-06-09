@@ -16,3 +16,9 @@ VALUES
 (9, 'Boarmon', '2005-06-07', 7, true, 20.4),
 (10, 'Blossom', '1998-10-13', 3, true, 17),
 (11, 'Ditto', '2022-05-14', 4, true, 22);
+
+BEGIN;
+UPDATE animals SET species = 'unspecified';
+SELECT * FROM animals;
+ROLLBACK;
+SELECT * FROM animals;
