@@ -110,4 +110,12 @@ WHERE NOT EXISTS (
   WHERE specializations.vet_id = visits.vet_id AND specializations.species_id = animals.species_id
 );
 
-
+-- What specialty should Maisy Smith consider getting? Look for the species she gets the most.
+SELECT species.name
+FROM visits 
+JOIN animals ON visits.animal_id = animals.id
+JOIN species ON animals.species_id = species.id
+WHERE visits.vet_id = (SELECT id FROM vets WHERE name = 'Maisy Smith')
+GROUP BY species.name
+ORDER BY COUNT(*) DESC
+LIMIT 1;
