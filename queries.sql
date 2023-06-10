@@ -57,5 +57,8 @@ WHERE visits.vet_id = (SELECT id FROM vets WHERE name = 'William Tatcher')
 ORDER BY visits.visit_date DESC
 LIMIT 1;
 
-
-
+-- How many different animals did Stephanie Mendez see?
+SELECT COUNT(DISTINCT animals.id)
+FROM visits 
+JOIN animals ON visits.animal_id = animals.id
+WHERE visits.vet_id = (SELECT id FROM vets WHERE name = 'Stephanie Mendez');
