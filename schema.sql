@@ -23,3 +23,5 @@ ALTER TABLE animals ADD FOREIGN KEY (owner_id) REFERENCES owners (id);
 COMMIT;
 
 CREATE TABLE vets (id SERIAL PRIMARY KEY, name VARCHAR(100) NOT NULL, age INT NOT NULL, date_of_graduation DATE NOT NULL);
+
+CREATE TABLE specializations (vet_id INT NOT NULL, species_id INT NOT NULL, PRIMARY KEY (vet_id, species_id), FOREIGN KEY (vet_id) REFERENCES vets (id), FOREIGN KEY (species_id) REFERENCES species (id));
