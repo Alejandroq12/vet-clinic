@@ -25,3 +25,5 @@ COMMIT;
 CREATE TABLE vets (id SERIAL PRIMARY KEY, name VARCHAR(100) NOT NULL, age INT NOT NULL, date_of_graduation DATE NOT NULL);
 
 CREATE TABLE specializations (vet_id INT NOT NULL, species_id INT NOT NULL, PRIMARY KEY (vet_id, species_id), FOREIGN KEY (vet_id) REFERENCES vets (id), FOREIGN KEY (species_id) REFERENCES species (id));
+
+CREATE TABLE visits (animal_id INT NOT NULL, vet_id INT NOT NULL, visit_date DATE NOT NULL, PRIMARY KEY (animal_id, vet_id, visit_date), FOREIGN KEY (animal_id) REFERENCES animals (id), FOREIGN KEY (vet_id) REFERENCES vets (id));
