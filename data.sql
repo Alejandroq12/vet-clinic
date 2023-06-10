@@ -40,11 +40,3 @@ UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob') WH
 UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Melody Pond') WHERE name IN ('Charmander', 'Squirtle', 'Blossom');
 UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Dean Winchester') WHERE name IN ('Angemon', 'Boarmon');
 COMMIT;
-
-SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Melody Pond';
-SELECT animals.name FROM animals JOIN species ON animals.species_id = species.id WHERE species.name = 'Pokemon';
-SELECT owners.full_name, animals.name FROM owners LEFT JOIN animals ON owners.id = animals.owner_id;
-SELECT species.name, COUNT(animals.id) FROM species LEFT JOIN animals ON species.id = animals.species_id GROUP BY species.name;
-SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id JOIN species ON animals.species_id = species.id WHERE owners.full_name = 'Jennifer Orwell' AND species.name = 'Digimon';
-SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Dean Winchester' AND animals.escape_attempts = 0;
-SELECT owners.full_name, subquery.animal_count FROM owners JOIN (SELECT owner_id, COUNT(*) as animal_count FROM animals GROUP BY owner_id ORDER BY animal_count DESC LIMIT 1) subquery ON owners.id = subquery.owner_id;
