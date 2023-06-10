@@ -29,5 +29,6 @@ COMMIT;
 
 BEGIN;
 UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Sam Smith') WHERE name = 'Agumon';
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') WHERE name IN ('Pikachu', 'Gabumon');
 
 COMMIT;
