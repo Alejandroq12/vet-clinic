@@ -42,3 +42,4 @@ UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Dean Win
 COMMIT;
 
 SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Melody Pond';
+SELECT animals.name FROM animals JOIN species ON animals.species_id = species.id WHERE species.name = 'Pokemon';
