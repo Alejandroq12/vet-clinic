@@ -1,5 +1,9 @@
-<a name="readme-top">Paws and Claws Clinic</a>
+<div align="center">
+    <img src="logo.png" alt="logo" width="550"  height="auto" />
+  <br/>
+  <h3><b>Paws and Claws Clinic</b></h3>
 
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
