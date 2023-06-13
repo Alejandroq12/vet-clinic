@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="logo.png" alt="logo" width="550"  height="auto" />
+    <img src="logo.png" alt="logo" width="700"  height="auto" />
   <br/>
   <h3><b>Paws and Claws Clinic</b></h3>
 
