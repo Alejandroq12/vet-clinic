@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="vets_diagram.png" alt="logo" width="700"  height="auto" />
+    <img src="vets_diagram.png" alt="logo" width="750"  height="auto" />
   <br/>
   <h3><b>Paws and Claws Clinic</b></h3>
 </div>
