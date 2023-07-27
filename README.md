@@ -4,7 +4,6 @@
   <h3><b>Paws and Claws Clinic</b></h3>
 </div>
 <!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
