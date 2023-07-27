@@ -26,7 +26,6 @@
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
-
 # 📖 Paws and Claws Clinic <a name="about-project"></a>
 
 **The Paws and Claws Vet Clinic Database** is a PostgreSQL system designed for managing essential information about pet patients in a veterinary clinic. The database stores and organizes data such as pet names, birth dates, weight, neutering status, and escape attempts, providing the clinic staff with a convenient way to track and access this crucial information. It also offers querying capabilities, which help in analysis, reporting, and decision-making, as a result enhancing the efficiency of the clinic's operations and the quality of care provided to the pets.
