@@ -48,7 +48,6 @@
 </details>
 
 <!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - **Robust Data Management**: The database offers a systematic way to manage information about the clinic's animal patients, making data retrieval and tracking more efficient.
